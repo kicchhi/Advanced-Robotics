@@ -10,11 +10,11 @@
 
 | Работа | Название | Основные алгоритмы |
 |--------|----------|-------------------|
-| [HW1](#-hw1-обнаружение-стен-и-пола) | Обнаружение стен и пола | RDP, Hough Transform, RANSAC |
-| [HW2](#-hw2-оценка-пройденного-пути) | Оценка пройденного пути | Linear Kalman Filter, GPS/IMU fusion |
-| [HW3](#-hw3-сравнительный-анализ-ekf-для-оценки-ориентации) | Сравнительный анализ EKF для оценки ориентации | EKF (Euler vs Quaternion), Gimbal Lock analysis |
-| [HW4](#-hw4-3d-реконструкция-объектов-методом-gaussian-splatting-gs) | 3D-реконструкция объектов методом Gaussian Splatting | COLMAP (SfM), 3D Gaussian Splatting|
-| [HW5](#-hw5-планирование-пути-path-planning) | Планирование пути (Path Planning) | A*, RRT, RRT* |
+| [HW1](#-hw1-ground-and-wall-detection) | Обнаружение стен и пола | RDP, Hough Transform, RANSAC |
+| [HW2](#-hw2 linear-kalman-filter) | Оценка пройденного пути | Linear Kalman Filter, GPS/IMU fusion |
+| [HW3](#-hw3-сравнительный-анализ-ekf) | Сравнительный анализ EKF для оценки ориентации | EKF (Euler vs Quaternion), Gimbal Lock analysis |
+| [HW4](#-hw4-gaussian-splatting) | 3D-реконструкция объектов методом Gaussian Splatting | COLMAP (SfM), 3D Gaussian Splatting|
+| [HW5](#-hw5-path-planning) | Планирование пути (Path Planning) | A*, RRT, RRT* |
 ---
 
 ## HW1: Обнаружение стен и пола
@@ -34,12 +34,12 @@
 ### Задача
 Реализовать и сравнить два подхода к расширенному фильтру Калмана (EKF) для оценки ориентации смартфона: на углах Эйлера и на кватернионах.
 
-# HW4: 3D-реконструкция объектов методом Gaussian Splatting (GS)
+## HW4: 3D-реконструкция объектов методом Gaussian Splatting (GS)
 
 ### Задача
 Реализовать конвейер создания фотореалистичного «цифрового двойника» реального объекта, сравнить результаты классического Structure from Motion (SfM, COLMAP) и нейросетевого рендеринга (3DGS).
 
-# HW5: Планирование пути (Path Planning)
+## HW5: Планирование пути (Path Planning)
 
 ### Задача
 
