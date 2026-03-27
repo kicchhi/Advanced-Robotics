@@ -56,9 +56,9 @@ Frolova AI, M25-RO-01
 *   Данные акселерометра (ось X).
 *   GPS-трек на карте.
 
-[graphic1.png]
+[](graphic1.png)
 
-[graphic2.png]
+[](graphic2.png)
 
 ## 📈 Результаты
 
