@@ -10,7 +10,7 @@
 
 | Работа | Название | Основные алгоритмы |
 |--------|----------|-------------------|
-| [HW1]([HW1] Ground and wall detection/) | Обнаружение стен и пола | RDP, Hough Transform, RANSAC |
+| [HW1]([HW1] Ground and wall detection[HW1] Ground and wall detection.ipynb/) | Обнаружение стен и пола | RDP, Hough Transform, RANSAC |
 | [HW2]([HW2] Linear Kalman filter/) | Оценка пройденного пути | Linear Kalman Filter, GPS/IMU fusion |
 | [HW3]([HW3] Сравнительный анализ EKF/) | Сравнительный анализ EKF для оценки ориентации | EKF (Euler vs Quaternion), Gimbal Lock analysis |
 | [HW4]([HW4] Gaussian splatting/) | 3D-реконструкция объектов методом Gaussian Splatting | COLMAP (SfM), 3D Gaussian Splatting |
